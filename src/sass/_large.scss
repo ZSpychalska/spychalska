@@ -1,0 +1,201 @@
+@media (min-width: 900px) {
+  .skill-box {
+    margin: 1.2em 3em;
+
+    &__name {
+      font-size: 2.4rem;
+    }
+
+    &__icon {
+      font-size: 3.5rem;
+    }
+  }
+
+  .section_title {
+    font-size: 3rem;
+  }
+
+  .aboutme {
+    grid-template-columns: 70% 30%;
+    margin: 0 3em 0 2em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav {
+    &__box {
+      margin: auto;
+    }
+
+    &__logoBox {
+      &-text {
+        font-size: 3rem;
+      }
+    }
+
+    &__menu-element {
+      margin: 0.5em;
+      font-size: 2.3rem;
+
+      &::before {
+        left: 1.95em;
+      }
+    }
+  }
+
+  .header {
+    grid-template-columns: 50% 50%;
+
+    &__text {
+      margin: 0 0.5em 0 2em;
+      font-size: 3.5rem;
+
+      &::after {
+        width: 150px;
+      }
+
+      &::before {
+        left: 145px;
+      }
+    }
+
+    &__boxes {
+      padding: 1.5em 10px 1.5em 10px;
+    }
+
+    &__box {
+      max-width: 290px;
+
+      &__gears {
+        width: 72px;
+        height: 67px;
+      }
+
+      &-icon {
+        font-size: 4.5rem;
+      }
+
+      &-text {
+        font-size: 2.5rem;
+      }
+    }
+
+    &__signboard {
+      &-title {
+        font-size: 5rem;
+      }
+
+      &-subtitle {
+        font-size: 2.7rem;
+      }
+
+      &-logo {
+        width: 125px;
+      }
+    }
+
+    &__btn {
+      &-text {
+        font-size: 2.5rem;
+      }
+
+      &-figure:nth-child(2) {
+        border-width: 0 0 72px 72px;
+      }
+
+      &-figure:nth-child(3) {
+        border-width: 72px 72px 0 0;
+      }
+
+      &-figure:nth-child(4) {
+        right: -72px;
+        width: 72px;
+        height: 72px;
+      }
+
+      &-figure:nth-child(5) {
+        left: -72px;
+        width: 72px;
+        height: 72px;
+      }
+    }
+  }
+
+  .section_title {
+    font-size: 3.2rem;
+  }
+
+  .aboutme {
+    width: 1000px;
+    grid-template-columns: 700px 300px;
+    grid-template-rows: auto 220px 220px;
+    margin: 0 auto;
+
+    &-textBox {
+      padding: 2.5em 3.5em;
+      &__text {
+        font-size: 2.5rem;
+        line-height: 35px;
+
+        &:nth-child(1) {
+          font-size: 2.7rem;
+        }
+      }
+    }
+
+    &-infoBox {
+      &__counter {
+        font-size: 6.8rem;
+      }
+      &__text {
+        font-size: 2.5rem;
+      }
+    }
+
+    &-imgBox {
+      background-size: contain;
+    }
+  }
+
+  .triangle__1 {
+    border-width: 0 0 377px 60px;
+  }
+
+  .triangle-box {
+    border-width: 0 0 500px 3em;
+
+    &__big {
+      border-width: 0 0 500px 3em;
+    }
+  }
+
+  .triangle-box2 {
+    border-width: 500px 3em 0 0;
+
+    &__big {
+      border-width: 500px 3em 0 0;
+    }
+  }
+
+  .contact {
+    &-form {
+      &__message {
+        width: 400px;
+      }
+
+      &__alert {
+        &:last-of-type {
+          width: 400px;
+        }
+      }
+    }
+  }
+
+  .review--right {
+    left: 65%;
+  }
+
+  .review--left {
+    right: 65%;
+  }
+}

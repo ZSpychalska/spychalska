@@ -1,0 +1,71 @@
+@use "_colors.scss" as *;
+
+@keyframes entry-headerElement {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@keyframes light-bulb {
+  0% {
+    color: $second-color;
+  }
+  50% {
+    color: $yellow-color;
+  }
+  100% {
+    color: $second-color;
+  }
+}
+
+@keyframes gear-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes FAQopenArrow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-180deg);
+  }
+}
+
+@keyframes sectionTitleAnimation {
+  from {
+    max-width: 0;
+  }
+
+  to {
+    max-width: 500px;
+  }
+}

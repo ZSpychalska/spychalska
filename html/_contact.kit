@@ -1,0 +1,75 @@
+<section class="contact" id="contact">
+  <h2 class="section_title">KONTAKT</h2>
+  <div class="contact__boxes">
+    <div class="contact-box">
+      <p class="contact-box__text">Zuzanna Spychalska</p>
+      <p class="contact-box__text">kontakt@spychalska.pl</p>
+      <!-- <div class="contact-box__icons">
+        <i class="fa-brands fa-github"></i>
+      </div> -->
+      <div class="contact__signboard">
+        <img
+          class="contact__signboard-logo"
+          src="dist/img/logo.svg"
+          alt="logo"
+        />
+        <h1 class="contact__signboard-title">SPYCHALSKA</h1>
+        <h3 class="contact__signboard-subtitle">FRONT-END DEVELOPER</h3>
+      </div>
+    </div>
+    <div class="contact-box">
+      <h3 class="contact-box__nameForm">
+        Czas zrobić pierwszy krok <br />
+        napisz do mnie i dowiedz się więcej;)
+      </h3>
+      <form action="form.php" method="POST" class="contact-form">
+        <label for="name" class="contact-form__label">Imie i nazwisko *</label>
+        <input
+          type="text"
+          name="name"
+          class="contact-form__name contact-form__input"
+        />
+        <p class="contact-form__alert"></p>
+
+        <label for="mail" class="contact-form__label">E-mail *</label>
+        <input
+          type="text"
+          name="mail"
+          class="contact-form__mail contact-form__input"
+        />
+        <p class="contact-form__alert"></p>
+
+        <label for="message" class="contact-form__label">Wiadomość</label>
+        <textarea
+          name="message"
+          class="contact-form__message"
+          placeholder="Tutaj wpisz wiadomość bądź pytanie jakie masz do mnie ;)"
+        ></textarea>
+        <p class="contact-form__alert"></p>
+
+        <div class="contact-form__buttons">
+          <input
+            type="submit"
+            value="Wyślij"
+            class="contact-form__button"
+            disabled
+          />
+          <span class="contact-form__button-tooltiptext"
+            >Pssst.. Wypełnij formularz</span
+          >
+          <input type="reset" value="Wyczyść" class="contact-form__button" />
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div class="contact-infoBox">
+  <div class="contact-info">
+    <i class="fa-solid fa-xmark contact-info__close"></i>
+    <p class="contact-info__text">
+      Dziękujemy za przesłanie wiadomości;) <br /><br />
+      Postaramy się skontaktować z Tobą jak najszybciej
+    </p>
+  </div>
+</div>
