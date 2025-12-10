@@ -38,8 +38,8 @@ const review = {
   text: [
     "Super!",
     "Polecam!",
-    "awkdnaokwnoawn fawfoiwajfawf awjfiaojwfoijwa  aiwjfioajwfoijawm",
-    "Woooooooooooooow ndwanawd iaiwjd w wwia",
+    "Przykładowa opinia nr3, polecam serdecznie",
+    "Przykładowa opinia nr4, polecam serdecznie. Bardzo ladne strony",
   ],
 };
 
